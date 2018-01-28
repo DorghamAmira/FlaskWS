@@ -1,0 +1,6 @@
+{
+  "name": "Flask restful api demonstration",
+  "description": "Mathematical operations",
+  "repository": "https://github.com/DorghamAmira/FlaskWS.git",
+  "keywords": ["flask restful api", "mathematical"]
+}
