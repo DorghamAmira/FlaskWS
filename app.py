@@ -5,7 +5,7 @@ import json , math
 app = Flask(__name__)
 api = Api(app)
 
-class CreateUser(Resource):
+class CreateOperation(Resource):
     total = 0
     def get(self,operation):
 
@@ -57,7 +57,7 @@ class CreateUser(Resource):
                 return {'error': str(e)}
 
 # Managing flask rest api routes
-api.add_resource(CreateUser, '/CreateUser/<string:operation>')
+api.add_resource(CreateOperation, '/Calculate/<string:operation>')
 
 if __name__ == '__main__':
     app.run(debug=True)
